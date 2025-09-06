@@ -134,4 +134,4 @@ You should see output walking through:
 
 ## Acknowledgments
 
-This implementation is based on the graduate-level distributed systems course (6.5840) at MIT.
+This implementation is based on the graduate-level distributed systems course (6.5840) at MIT, utilizing a provided harness for failure-injection and network simulation.
