@@ -119,7 +119,7 @@ You should see output walking through:
 * Network partition and healing
 * Data consistency across the cluster
 
-![](src\1.jpg)
+![](src/1.jpg)
 ---
 
 ## Design Highlights
