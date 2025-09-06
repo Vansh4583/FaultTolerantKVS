@@ -258,4 +258,9 @@ func (kv *KVServer) applyCommittedOperations() {
 
 		kv.mu.Unlock()
 	}
+
+}
+
+func (kv *KVServer) GetRaft() *raft.Raft {
+	return kv.rf
 }
