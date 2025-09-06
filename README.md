@@ -64,9 +64,6 @@ kvraft/      # KV server built on Raft
   config.go    # System test harness
   test_test.go # End-to-end tests
   models/kv.go # Porcupine linearizability model
-
-labrpc/      # Simulated lossy RPC layer
-labgob/      # Encoding support for persistence
 ```
 
 ---
@@ -132,3 +129,9 @@ You should see output walking through:
 * Apply path — Raft emits `ApplyMsg` → KVServer updates state → wakes waiting RPCs
 * Persistence — durable encoding of `currentTerm`, `votedFor`, log; restored on restart
 * Client correctness — duplicate suppression with `(ClientId, RequestId)` ensures exactly-once semantics
+
+---
+
+## Acknowledgments
+
+This implementation is based on the graduate-level distributed systems course (6.5840) at MIT.
