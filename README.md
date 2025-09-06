@@ -1,1 +1,2 @@
-# FaultTolerantKVS
+# Fault Tolerant Key Value Store
+
